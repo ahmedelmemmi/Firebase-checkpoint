@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Carter+One|Fugaz+One');
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color: #92bde7;
+  color: #485e74;
+}
+img{
+  width: 100%;
+}
+h1{
+  font-family: 'Carter One', cursive;
+  text-align: center; 
+}
+span{
+  color: white;
+}
+h2{
+  font-family: 'Fugaz One', cursive;
+  text-align: center;
+}
+form{
+  padding-top: 50px;
+}
+.container{
+  display: grid;
+  grid-template-columns: 300px 750px;
+  padding: 30px;
+}
+.leftside{
+font-family: 'Fugaz One', cursive;
+ background-color: #c9e6ff;
+}
+.rightside{
+  padding-left:30px; 
+  background-color: white;
+}
+p{
+  display: block;
+  padding-block-start: 1em;
+  padding-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+
+}
+#btn{
+  background-color: #c9e6ff;
+  width: 100%;
+  padding: 8px 15px 8px 15px;
+
+}
+#btn:hover{
+  color: white;
+  background-color: #485e74;
+} 
+.alert{
+  text-align: center;
+  padding: 10px;
+  background: #79c879;
+  color: #fff;
+  margin-bottom: 10px;
+  display: none;
+}

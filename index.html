@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <title>HTML-Form</title>
+
+</head>
+
+<body>
+    <h1> <span id="whitee">  Ada </span>Students feedback</h1>
+    <div class="container">
+     <div class="leftside">
+        <img src="res/uncle-sam-we-want-you1-kopie_1.png">
+        <h3>To give us feedback, 
+            because this course is made for you! Because 
+            it's all about you!</h3>
+            <p>Fill this form if you:</p>
+            <ul>
+                <li>Find an error in the content or in the quizzes</li>
+                <li>Have a feedback about instructors or the experience</li>
+                <li>Have a suggestion on how to make the course better</li>
+            </ul>
+
+     </div>
+     <div class="rightside">
+        <h2>Email Us</h2>
+        <div class="alert"> Your message has been sent</div>
+        <form id="contactForm">
+           
+            <p>
+                Name: 
+                <input type="text" name="text" placeholder="put your name" id="name" >
+            </p>
+            <p>
+                <label> Track</label>
+                <select name="track" id="track">
+                    <option value="ai">AI</option>
+                    <option value="web">Web</option>
+                    <option value="game">Game</option>
+                </select>
+            </p>
+            <p>
+                Slide name (or object): 
+                <input type="text" name="text" placeholder="put the slide name here " id="slide" >
+            </p>
+            
+                Message:
+                <input type="text" name="text" style="height: 100px"  placeholder="put your message here.." id="msg">
+            </p>
+            <button type="submit" id="btn">Submit</button>
+        </form>
+    </div>
+</div>
+</body>
+<script src="https://www.gstatic.com/firebasejs/5.9.0/firebase.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="js/main.js"></script>
+
+</html>
